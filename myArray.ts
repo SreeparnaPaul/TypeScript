@@ -22,3 +22,4 @@ allUsers.push({
     isActive:true
 }
 )
+export {}
