@@ -13,3 +13,15 @@ createUser(newUser);
 function createCourse() {
     return { name: "react", price: 1000 };
 }
+function createCustomer(customer) {
+    return {
+        name: customer.name,
+        email: customer.email,
+        isActive: customer.isActive
+    };
+}
+createCustomer({
+    name: "Sreeparna Paul",
+    email: "sree@yopmail.com",
+    isActive: true
+});
