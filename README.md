@@ -9,3 +9,5 @@
          Linux : sudo npm install -g typescript 
          Windows: npm install -g typescript 
          Version check: tsc -v
+         Watch mode: tsc -w
+         Run file: tsc filename
